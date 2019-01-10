@@ -45,7 +45,7 @@ public class P6 {
             do {
                 System.out.print("Are there more conversions to perform? ");
                 response = input.next().toLowerCase();
-                
+
             } while (!response.equals("yes") && !response.equals("no"));
 
         } while (response.equals("yes"));
@@ -53,6 +53,7 @@ public class P6 {
     }
 
     /**
+     * method converts
      *
      * @param dollars amount the user has
      * @param exchangeRate the added payment
